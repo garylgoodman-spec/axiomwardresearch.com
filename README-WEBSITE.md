@@ -1,16 +1,21 @@
-# Axiomward Research Website v1.0
+# Axiomward Research Website v1.0 — GitHub Flat Version
 
-Static HTML/CSS/JavaScript site for GitHub Pages.
+This version is designed for GitHub's browser uploader. Every website file lives directly in the repository root (`main`). No folders are required.
 
-## Upload
-Upload all files and folders in this package to the root of the `axiomwardresearch.com` GitHub repository. Keep the existing `CNAME` file if GitHub created one for the custom domain.
+Upload all files in this package to the root of the `garylgoodman-spec/axiomwardresearch.com` repository. Existing files with the same names should be replaced.
 
-## Important
-- `contact.html` contains an email placeholder. Replace it with the public company email when ready.
-- The logo and favicon are in `assets/logos/`.
-- Global appearance is controlled by `css/style.css`.
-- Mobile navigation is controlled by `js/main.js`.
-- Project pages are under `projects/`.
+Required files:
+- index.html
+- about.html
+- research.html
+- oracle.html
+- uuv.html
+- partnerships.html
+- contact.html
+- style.css
+- main.js
+- axiomward-logo.png
+- favicon.png
+- CNAME
 
-## Custom domain
-The GitHub Pages custom domain should remain `axiomwardresearch.com`, with Enforce HTTPS enabled.
+Keep GitHub Pages configured for `main` and `/ (root)`. Keep the custom domain `axiomwardresearch.com` and Enforce HTTPS enabled.
